@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang= "fr">
+        <link rel="stylesheet" href="css.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+    <link rel ="shortcut icon" href="avatar.jpg">
+    <script src="js.js" defer></script>
+    </head>
+    <body class="page">
+        <table class="d">
+            <tr>
+                <td><a class="button-style" href="pageprincipale.html"> Page d'accueil </a></td>
+                <td><a class="button-style" href="CV.html"> Curriculum Vitae </a></td>
+                <td><a class="button-style" href="portfolio.html"> Portfolio </a></td>
+            </tr>
+        </table>
+        <div class="top">
+            <h1>Mon Portfolio</h1>
+        </div>
+        <br>
+        <br>
+        <div class="containerpartenaires">    
+            <button class="button1" type="button" onclick="montrerBoutonsPro()">Professionnel</button>
+            <button class="button1" type="button" onclick="montrerBoutonsPerso()">Personnel</button>
+            <div id="professionnel" style="display:none;">
+                <button class="button2" onclick="montrerSection('coloniesCLV')">CLV Rhône-Alpes</button>
+                <button class="button2" onclick="montrerSection('coloniesCIE')">CEI Thales</button>
+                <button class="button2" onclick="montrerSection('coloniesCCGPF')">CCGPF</button>
+                <button class="button2" onclick="montrerSection('coloniesP4S')">Poneys des quatre saisons</button>
+            </div>
+            <div id="personnel" style="display:none;">
+                <button class="button2" onclick="montrerSection('USA')">USA</button>
+                <button class="button2" onclick="montrerSection('manuelles')">Activités manuelles</button>
+                <button class="button2" onclick="montrerSection('equitation')">Equitation</button>
+            </div>
+        </div>
+        <p id="description-text"></p>
+        <table id="coloniesCLV">
+            <tr>
+                <td><img src="CLV.png" height="400" width="400"></td>
+                <td><img src="roumanie.jpeg" height="400" width="auto"></td>
+                <td><video src="roumanievideo.mp4" height="400" controls></td>
+            </tr>
+        </table>
+
+        <table id="coloniesCIE">
+            <tr>
+                <td><img src="CIE.png" height="400" width="400"></td>
+                <td><img src="thales.jpeg" height="400"></td>
+                <td><video src="thalesvideo.mp4" height="400" controls></td>
+            </tr>
+        </table>
+        
+        <table id="coloniesCCGPF">
+            <tr>
+                <td><img src="CCGPF.png" height="400" width="400"></td>
+                <td><img src="ccgpf.jpeg" height="400"></td>
+                <td><video src="ccgpfvideo.mp4" height="400" controls></td>
+            </tr>
+        </table>
+
+        <table id="coloniesP4S">
+            <tr>
+                <td><img src="P4S.png" height="400" width="400"></td>
+                <td><img src="P4S.jpg" height="400"></td>
+                <td><video src="P4Svideo.mp4" height="400" controls></td>
+            </tr>
+        </table>
+
+        <table id="USA">
+            <tr>
+                <td><img src="depart.jpeg" height="400"></td>
+                <td><img src="ecole.jpg" height="400"></td>
+                <td><img src="animaux.jpg" height="400"></td>
+            </tr>
+        </table>
+
+        <table id="manuelles">
+            <tr>
+                <td><img src="cadre.jpg" height="400"></td>
+                <td><img src="broderie.jpeg" height="400"></td>
+                <td><img src="couture.jpeg" height="400"></td>
+            </tr>
+        </table>
+
+        <table id="equitation">
+            <tr>
+                <td><img src="jeune.jpg" height="400"></td>
+                <td><video src="saut.mp4" height="400" controls></td>
+                <td><img src="plage.jpeg" height="400"></td>
+            </tr>
+        </table>
+        
+    </body>
+</html>

@@ -1,0 +1,483 @@
+body.page{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.top{
+    color: rgb(251, 235, 190);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2px;
+    background-color: rgb(148, 65, 80);
+}
+
+.d{
+    text-align: center;
+    font-size: x-large;
+    font-family: Arial, Times, serif;
+    color:rgb(251, 235, 190);
+    margin : auto;
+    padding: 10px 12%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button-style{
+    background-color: rgb(251, 235, 190);
+    color: rgb(148, 65, 80);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 2px solid rgb(148, 65, 80);
+    border-color: rgb(148, 65, 80);
+}
+
+.button-style:hover{
+    background-color: rgb(148, 65, 80);
+    color:rgb(251, 235, 190) ;
+    padding: 15px 32px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button-style1{
+    background-color: rgb(148, 65, 80);
+    color: rgb(251, 235, 190);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 2px solid rgb(148, 65, 80)
+}
+
+.button-style1:hover{
+    background-color: rgb(251, 235, 190);
+    color:rgb(148, 65, 80);
+    padding: 15px 32px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid rgb(148, 65, 80)
+}
+
+p{
+    font-size: 18px;
+    color: rgb(58, 58, 58);
+}
+
+.elise{
+    font-size: 28px;
+    color: rgb(148, 65, 80);
+    font-weight: bolder;
+    position: absolute;
+    top: 4.6%;
+    left: 8%;
+}
+
+.stage{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 6.3%;
+    left: 8%;
+}
+
+
+.ligne-total {
+  position: relative;
+  width: 700px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.ligne {
+  display: block;
+  left: 20%;
+}
+
+.coordonnees{
+    position: absolute;
+    left: 6.7%;
+    top: 10.5%;
+}
+
+.presentation{
+    position: absolute;
+    top: 19.2%;
+    left: 8%;
+}
+
+.qualites{
+    position: absolute;
+    left: 6%;
+    top: 27.7%;
+}
+
+.titrestageGC{
+    font-weight: bold;
+    color: rgb(148, 65, 80);
+    position: absolute;
+    top: 33.2%;
+    left: 8%;
+}
+
+.stageGC{
+    position: absolute;
+    top: 34.2%;
+    left: 8%;
+}
+
+.titreCLV{
+    font-weight: bold;
+    color: rgb(148, 65, 80);
+    position: absolute;
+    top: 39.7%;
+    left: 8%;
+}
+
+.CLV{position: absolute;
+    top: 40.7%;
+    left: 8%;
+}
+
+.titreCIE{
+    font-weight: bold;
+    color: rgb(148, 65, 80);
+    position: absolute;
+    top: 47.2%;
+    left: 8%;
+}
+
+.CIE{
+    position: absolute;
+    top: 48.2%;
+    left: 8%;
+}
+.titreCCGPF{
+    font-weight: bold;
+    color: rgb(148, 65, 80);
+    position: absolute;
+    top: 54.6%;
+    left: 8%;
+}
+
+.CCGPF{
+    position: absolute;
+    top: 55.6%;
+    left: 8%;
+}
+
+.titreP4S{
+    font-weight: bold;
+    color: rgb(148, 65, 80);
+    position: absolute;
+    top: 62.1%;
+    left: 8%;
+}
+
+.P4S{
+    position: absolute;
+    top: 63.1%;
+    left: 8%;
+}
+
+.PEI{
+    position: absolute;
+    top: 69.6%;
+    left: 8%;
+}
+
+.stjo{
+    position: absolute;
+    top: 71.6%;
+    left: 8%;
+}
+
+.USA{
+    position: absolute;
+    top: 74.8%;
+    left: 8%;
+}
+
+.langue{
+    position: absolute;
+    top: 78.6%;
+    left: 8%;
+}
+
+.interet{
+    position: absolute;
+    top: 83.8%;
+    left: 8%;
+}
+
+.BAFA{
+    position: absolute;
+    top: 90%;
+    left: 8%;
+    color: rgb(148, 65, 80);
+}
+
+.PSC{
+    position: absolute;
+    top: 91%;
+    left: 8%;
+    color: rgb(148, 65, 80);
+}
+
+.profil{
+    font-weight: bold;
+    color: rgb(148, 65, 80);
+    position: absolute;
+    top: 19.2%;
+    left: -6%;
+}
+
+.competences{
+    font-weight: bold;
+    color: rgb(148, 65, 80);
+    position: absolute;
+    top: 26.8%;
+    left: -15%;
+}
+
+.experiences{
+    font-weight: bold;
+    color: rgb(148, 65, 80);
+    position: absolute;
+    top: 31.2%;
+    left: -14%;
+}
+
+.date1{
+    top: 33.2%;
+    left: -10%;
+    position: absolute;
+}
+
+.date2{
+    top: 39.7%;
+    left: -11%;
+    position: absolute;
+}
+
+.date3{
+    
+    top: 47.2%;
+    left: -12%;
+    position: absolute;
+}
+
+.date4{
+    top: 54.6%;
+    left: -20%;
+    position: absolute;
+}
+
+.date5{
+    top: 62.1%;
+    left: -12%;
+    position: absolute;
+}
+
+.formations{
+    font-weight: bold;
+    color: rgb(148, 65, 80);
+    position: absolute;
+    top: 67.6%;
+    left: -13%;
+}
+
+
+
+.date6{
+    top: 69.6%;
+    left: -28.5%;
+    position: absolute;
+}
+
+.date7{
+    top: 71.6%;
+    left: -11.5%;
+    position: absolute;
+}
+
+.date8{
+    top: 74.8%;
+    left: -23%;
+    position: absolute;
+}
+
+.centre{
+    font-weight: bold;
+    color: rgb(148, 65, 80);
+    position: absolute;
+    top: 83.8%;
+    left: -20%;
+}
+
+.anglais{
+    font-weight: bold;
+    color: rgb(148, 65, 80);
+    position: absolute;
+    top: 78%;
+    left: -9.5%;
+}
+
+.et{
+    font-weight: bold;
+    color: rgb(148, 65, 80);
+    position: absolute;
+    top: 89.2%;
+    left: -26%;
+}
+
+.button1{
+    margin: 15px 35px;
+    background-color: rgb(148, 65, 80);
+    color: rgb(251, 235, 190);
+    border-radius: 25px;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 0cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button1:hover{
+    margin: 15px 35px;
+    background-color: rgb(251, 235, 190);
+    color: rgb(148, 65, 80);
+    border-radius: 25px;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 0cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button2{
+    margin: 15px 35px;
+    background-color: rgb(251, 235, 190);
+    color: rgb(148, 65, 80);
+    border-radius: 25px;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 0cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button2:hover{
+    margin: 15px 35px;
+    background-color: rgb(251, 235, 190);
+    color: rgb(148, 65, 80);
+    border-radius: 25px;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: solid 2px rgb(148, 65, 80);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.containerpartenaires{
+    align-items: center;
+    text-align: center;
+}
+
+.lien{
+    color: rgb(148, 65, 80);
+}
+
+#coloniesCLV{
+    margin: auto;
+    display: none;
+}
+
+#coloniesCIE{
+    margin: auto;
+    display: none;
+}
+
+#coloniesCCGPF{
+    margin: auto;
+    display: none;
+}
+
+#coloniesP4S{
+    margin: auto;
+    display: none;
+}
+
+#USA{
+    margin: auto;
+    display: none;
+}
+
+#manuelles{
+    margin: auto;
+    display: none;
+}
+
+#equitation{
+    margin: auto;
+    display: none;
+}
+
+.moi{
+    border-radius: 15px;
+    margin: 30px;
+}
+
+
+.sectionleft{
+    background-color: rgb(251, 235, 190);
+    width: 240px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.sectionsleft{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: absolute;
+    right: 20px;
+    top: 250px;
+}
+
+.list{
+    padding-left: 30px;
+    font-size: 20px;
+}
